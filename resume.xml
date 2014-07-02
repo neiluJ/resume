@@ -29,9 +29,6 @@
             <linkedin>http://www.linkedin.com/in/neiluj34</linkedin>
         </networks>
         <intro>
-            <![CDATA[
-            Mon parcours d'autodidacte m'a permis de rentrer rapidement dans le monde du travail, me confrontant ainsi à de nombreux contextes professionnels. Passioné depuis l'adolescence par les technologies du web, j'ai pu adapter et perfectionner au fil du temps mes méthodes de travail. Amateur de la <em>programmation objet</em>, j'aime mettre en pratique les <em>design patterns</em> et les <em>méthodes agiles</em> au détriment de la complexité d'un <em>besoin</em>.    
-            ]]>
         </intro>
     </head>
     
@@ -42,14 +39,13 @@
             <to></to>
             <position>Développeur Web</position>
             <details>
-                <info>Développement du site eCommerce UGAP.fr (JAVA EE, Struts 2, SAP Netweaver, Eclipse, Maven)</info>
+                <info>Développement du site eCommerce UGAP.fr (JAVA EE, Struts, SAP Netweaver)</info>
                 <info>Intégration continue des développements (Jenkins, TU, Maven)</info>
-                <info>Réfection complète d'un site interne en application Web 2.0 (PHP 5)</info>                
-                <info>Application de design patterns et méthodes agiles (Extrême programming, Scrum)</info>
-                <info>Intégration des applications au Système d'Informations (SAP, Office, Acrobat, LDAP...)</info>
+                <info>Réfection complète d'un site interne en application Web 2.0 (PHP)</info>
+                <info>Application de design patterns et méthodes agiles (XP, Scrum)</info>
+                <info>Intégration des applications au Système d'Informations (SAP, Office, LDAP...)</info>
                 <info>Utilisation avancée d'InnoDB (MySQL 5)</info>  
                 <info>Interfaces de communications B2B (XML, XCBL)</info>
-                <info>Respect des normes W3C</info>
             </details>
             <text />
         </experience>
@@ -60,7 +56,7 @@
             <to>2008</to>
             <position>Développeur Web</position>
             <details>
-                <info>Développement d'un Framework PHP 4</info>
+                <info>Développement d'un Framework PHP</info>
                 <info>Administration et support du serveur (environ 100 sites hébergés)</info>  
                 <info>Développement de sites à la demande</info>  
                 <info>Support informatique interne (clients &amp; serveurs)</info>  
@@ -69,14 +65,14 @@
         </experience>
     
         <experience visible="true">
-            <employer>ECS Group</employer>
+            <employer>ECS Group / Groupama S.I.</employer>
             <from>2005</from>
             <to>2007</to>
             <position>Technicien</position>
             <details>
                 <info>Maintenance et Création d'applications PHP 5</info>                
                 <info>Installation de plates-formes web LAMP</info>  
-                <info>Dépannage des machines Clients, Serveurs et Infrastructures Réseau</info>  
+                <info>Maintenance des machines Clients, Serveurs et Infrastructures Réseau</info>
                 <info>Support applicatif pour divers produits: IBM Lotus Notes, SAP, $U</info>
                 <text />
             </details>
@@ -120,7 +116,7 @@
         </skill>
 
         <skill category="Design &amp; UI">
-            <name>Web Standards</name>
+            <name>Standards</name>
             <level>4.5</level>
         </skill>
         <skill category="Design &amp; UI">
@@ -137,7 +133,7 @@
         </skill>
         <skill category="Design &amp; UI">
             <name>HTML5 &amp; Mobilité</name>
-            <level>4</level>
+            <level>3</level>
         </skill>
         
         <skill category="Langues">

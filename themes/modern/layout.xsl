@@ -96,7 +96,7 @@
                         </div>
                         <div style="clear:both;"></div>
                     </div>
-                    <div class="container">
+                    <div class="container cut-here">
                         <h2>Parcours</h2>
                         <div class="contents">
                             <xsl:call-template name="experiences" />
