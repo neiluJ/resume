@@ -1,0 +1,61 @@
+html, html body {
+ background: #fff;
+ background-color: #fff;
+ font-size: 14pt;
+ padding:0;
+ margin:0;
+ height:100%;
+}
+@page :first {
+    margin-left: 0in;
+}
+
+@page :left {
+    margin-left: 0in;
+    margin-right: 0in;
+}
+
+@page :right {
+    margin-left: 0in;
+    margin-right: 0in;
+}
+
+#wrap {
+    width: 100%;
+    border-bottom: none;
+    border-top:none;
+    padding-top:0;
+    margin:0;
+}
+.container {
+    padding-left: 0;
+    padding-right: 0;
+    page-break-before: auto;
+}
+#head.container {
+    padding-top:0;
+    padding-bottom:20px;
+}
+a#zce {
+    display: inline-block;
+    margin-top: 10px;
+    width: 42px;
+    height: 27px;
+    background: transparent url(../images/zce-logo.png) left top no-repeat;
+    text-indent: -5000px;
+    outline:none;
+}
+.hidden {
+    display:none;
+    visibility: hidden;
+    margin:0;
+    padding:0;
+    height:0;
+}
+ul#work>li {
+    page-break-inside: auto;
+}
+ul#skills>li {
+    width: 48%;
+    min-height: 40px;
+}

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Document   : resume.xml
+    Created on : 6 décembre 2011, 10:16
+    Author     : neiluj
+    Description:
+        Détails du CV
+-->
+<resume>
+    <config>
+        <property name="theme">modern</property>
+        <property name="themesDir">./themes</property>
+    </config>
+    
+    <head>
+        <name>Julien Ballestracci</name>
+        <description>Curriculum Vitae de Julien Ballestracci - Developpeur Web</description>
+        <copyright>Julien Ballestracci (c) 2011-2012</copyright>
+        <keywords>curriculum, vitae, cv, developer, developper, developpeur, developeur, devellopeur, web, web 2.0, innovation, c.v., c.v, neiluj, montpellier, france, hire, job, php, expert, ingénieur, certifié, ugap, webmaster, java, ballestracci, mtp, design patterns, design, ui, interface, oop, object, objects, oriented, programming, stuff</keywords>
+        <localisation>Montpellier, France</localisation>
+        <age>29</age>
+        <url>http://www.neiluj.pro</url>
+        <email>julien@neiluj.pro</email>
+        <position>Développeur Web, Montpellier</position>
+        <headline>Vieux passionné du web et jeune développeur expérimenté à la fois.</headline>
+        <picture>images/v3/tof.jpg</picture>
+        <networks>
+            <viadeo>http://www.viadeo.com/profile/julien.ballestracci</viadeo>
+            <linkedin>http://www.linkedin.com/in/neiluj34</linkedin>
+        </networks>
+        <intro>
+            <![CDATA[
+            Mon parcours d'autodidacte m'a permis de rentrer rapidement dans le monde du travail, me confrontant ainsi à de nombreux contextes professionnels. Passioné depuis l'adolescence par les technologies du web, j'ai pu adapter et perfectionner au fil du temps mes méthodes de travail. Amateur de la <em>programmation objet</em>, j'aime mettre en pratique les <em>design patterns</em> et les <em>méthodes agiles</em> au détriment de la complexité d'un <em>besoin</em>.    
+            ]]>
+        </intro>
+    </head>
+    
+    <experiences>
+        <experience visible="true">
+            <employer>UGAP</employer>
+            <from>2008</from>
+            <to></to>
+            <position>Développeur Web</position>
+            <details>
+                <info>Développement du site eCommerce UGAP.fr (JAVA EE, Struts 2, SAP Netweaver, Eclipse, Maven)</info>
+                <info>Intégration continue des développements (Jenkins, TU, Maven)</info>
+                <info>Réfection complète d'un site interne en application Web 2.0 (PHP 5)</info>                
+                <info>Application de design patterns et méthodes agiles (Extrême programming, Scrum)</info>
+                <info>Intégration des applications au Système d'Informations (SAP, Office, Acrobat, LDAP...)</info>
+                <info>Utilisation avancée d'InnoDB (MySQL 5)</info>  
+                <info>Interfaces de communications B2B (XML, XCBL)</info>
+                <info>Respect des normes W3C</info>
+            </details>
+            <text />
+        </experience>
+        
+        <experience visible="true">
+            <employer>Réseau Ecole &amp; Nature</employer>
+            <from>2007</from>
+            <to>2008</to>
+            <position>Développeur Web</position>
+            <details>
+                <info>Développement d'un Framework PHP 4</info>
+                <info>Administration et support du serveur (environ 100 sites hébergés)</info>  
+                <info>Développement de sites à la demande</info>  
+                <info>Support informatique interne (clients &amp; serveurs)</info>  
+                <text />
+            </details>
+        </experience>
+    
+        <experience visible="true">
+            <employer>ECS Group</employer>
+            <from>2005</from>
+            <to>2007</to>
+            <position>Technicien</position>
+            <details>
+                <info>Maintenance et Création d'applications PHP 5</info>                
+                <info>Installation de plates-formes web LAMP</info>  
+                <info>Dépannage des machines Clients, Serveurs et Infrastructures Réseau</info>  
+                <info>Support applicatif pour divers produits: IBM Lotus Notes, SAP, $U</info>
+                <text />
+            </details>
+        </experience>
+
+        <!--
+        <experience visible="false">
+            <employer>Groupama SI</employer>
+            <from>Aout 2004</from>
+            <to>Sept. 2004</to>
+            <position>Stage Equipe Bureautique</position>
+            <details>
+                <info>Développement d'utilitaires sous Borland Delphi 7</info>                
+                <info>Support utilisateurs et résolutions d'incidents</info>  
+                <text />
+            </details>
+        </experience>
+        -->
+    </experiences>
+
+    <skills>
+        <skill category="Programmation">
+            <name>PHP</name>
+            <level>5</level>
+        </skill>
+        <skill category="Programmation">
+            <name>Objet</name>
+            <level>5</level>
+        </skill>
+        <skill category="Programmation">
+            <name>Java</name>
+            <level>3.5</level>
+        </skill>
+        <skill category="Programmation">
+            <name>JavaScript</name>
+            <level>5</level>
+        </skill>
+        <skill category="Programmation">
+            <name>SQL</name>
+            <level>3.5</level>
+        </skill>
+
+        <skill category="Design &amp; UI">
+            <name>Web Standards</name>
+            <level>4.5</level>
+        </skill>
+        <skill category="Design &amp; UI">
+            <name>CSS</name>
+            <level>4.5</level>
+        </skill>
+        <skill category="Design &amp; UI">
+            <name>CoffeeScript</name>
+            <level>4</level>
+        </skill>
+        <skill category="Design &amp; UI">
+            <name>Conception</name>
+            <level>4</level>
+        </skill>
+        <skill category="Design &amp; UI">
+            <name>HTML5 &amp; Mobilité</name>
+            <level>4</level>
+        </skill>
+        
+        <skill category="Langues">
+            <name>Anglais</name>
+            <level>4.5</level>
+        </skill>
+        <skill category="Langues">
+            <name>Français</name>
+            <level>5</level>
+        </skill>
+        
+        <skill category="Systèmes">
+            <name>Linux</name>
+            <level>5</level>
+        </skill>
+        <skill category="Systèmes">
+            <name>FreeBSD / OSX</name>
+            <level>4</level>
+        </skill>
+        <skill category="Systèmes">
+            <name>Windows</name>
+            <level>3.5</level>
+        </skill>
+        
+        <skill category="Veille">
+            <item id="html5">
+                <name>HTML5</name>
+                <url>http://www.html5rocks.com/en/</url>
+            </item>
+            <item id="css3">
+                <name>CSS3</name>
+                <url>http://www.css3.info/</url>
+            </item>
+            <item id="node">
+                <name>NodeJS</name>
+                <url>http://nodejs.org</url>
+            </item>
+            <item id="moo">
+                <name>MooTools</name>
+                <url>http://mootools.net/</url>
+            </item>
+            <item id="mongo">
+                <name>MongoDB</name>
+                <url>http://www.mongodb.org/</url>
+            </item>
+        </skill>
+    </skills>
+
+    <education>
+           <name>Lycée Champollion</name>
+           <from>2002</from>
+           <to>2004</to>
+           <localisation>Lattes</localisation>
+           <details>Bac Professionnel M.A.E.M.C</details>
+    </education>
+    <education>
+           <name>Lycée Jean-Mermoz</name>
+           <from>2000</from>
+           <to>2002</to>
+           <localisation>Montpellier</localisation>
+           <details>B.E.P. Electronique</details>
+    </education>
+    
+    <interests>
+        <interest category="Musique">
+            <name>Batterie</name>
+            <details />
+        </interest>
+        <interest category="Musique">
+            <name>Basse</name>
+            <details />
+        </interest>
+        <interest category="Musique">
+            <name>Jazz</name>
+            <details />
+        </interest>
+        
+        <interest category="Arts">
+            <name>Photographie</name>
+            <details />
+        </interest>
+        <interest category="Arts">
+            <name>Design</name>
+            <details />
+        </interest>
+        <interest category="Arts">
+            <name>Architecture</name>
+            <details />
+        </interest>
+        
+        <interest category="Sports">
+            <name>Hapkido</name>
+            <details />
+        </interest>
+        <interest category="Sports">
+            <name>Skateboard</name>
+            <details />
+        </interest>
+    </interests>
+</resume>
