@@ -39,7 +39,7 @@
             <to></to>
             <position>Développeur Web</position>
             <details>
-                <info>Développement du site eCommerce UGAP.fr (JAVA EE, Struts, SAP Netweaver)</info>
+                <info>Développement du site eCommerce UGAP.fr (JAVA EE, SAP Netweaver, Struts 2, EJB 3)</info>
                 <info>Intégration continue des développements (Jenkins, TU, Maven)</info>
                 <info>Réfection complète d'un site interne en application Web 2.0 (PHP)</info>
                 <info>Application de design patterns et méthodes agiles (XP, Scrum)</info>
@@ -68,7 +68,7 @@
             <employer>ECS Group / Groupama S.I.</employer>
             <from>2005</from>
             <to>2007</to>
-            <position>Technicien</position>
+            <position>Technicien Informatique</position>
             <details>
                 <info>Maintenance et Création d'applications PHP 5</info>                
                 <info>Installation de plates-formes web LAMP</info>  
