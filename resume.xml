@@ -18,11 +18,11 @@
         <copyright>Julien Ballestracci (c) 2011-2012</copyright>
         <keywords>curriculum, vitae, cv, developer, developper, developpeur, developeur, devellopeur, web, web 2.0, innovation, c.v., c.v, neiluj, montpellier, france, hire, job, php, expert, ingénieur, certifié, ugap, webmaster, java, ballestracci, mtp, design patterns, design, ui, interface, oop, object, objects, oriented, programming, stuff</keywords>
         <localisation>Montpellier, France</localisation>
-        <age>29</age>
+        <age>32</age>
         <url>http://www.neiluj.pro</url>
         <email>julien@neiluj.pro</email>
-        <position>Développeur Web, Montpellier</position>
-        <headline>Vieux passionné du web et jeune développeur expérimenté à la fois.</headline>
+        <position>Lead Developer, Montpellier</position>
+        <headline>Vieux passionné du web et développeur expérimenté à la fois.</headline>
         <picture>images/v3/tof.jpg</picture>
         <networks>
             <viadeo>http://www.viadeo.com/profile/julien.ballestracci</viadeo>
@@ -34,9 +34,23 @@
     
     <experiences>
         <experience visible="true">
+            <employer>Kaliop</employer>
+            <from>2015</from>
+            <to></to>
+            <position>Lead Developer</position>
+            <details>
+                <info>Développement d'applications et sites Web (PHP, Symfony, eZ Publish/Platform)</info>
+                <info>Intégrations de services tiers (Webservices client, YouSign, Stripe...)</info>
+                <info>Techologies du moment (Docker, Varnish, Solr, ...)</info>
+                <info>Méthode AGILE (Scrum, JIRA)</info>
+            </details>
+            <text />
+        </experience>
+        
+        <experience visible="true">
             <employer>UGAP</employer>
             <from>2008</from>
-            <to></to>
+            <to>2015</to>
             <position>Développeur Web</position>
             <details>
                 <info>Développement du site eCommerce UGAP.fr (JAVA EE, SAP Netweaver, Struts 2, EJB 3)</info>
@@ -64,7 +78,7 @@
             </details>
         </experience>
     
-        <experience visible="true">
+        <experience visible="false">
             <employer>ECS Group / Groupama S.I.</employer>
             <from>2005</from>
             <to>2007</to>
