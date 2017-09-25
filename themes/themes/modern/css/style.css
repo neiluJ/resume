@@ -1,0 +1,233 @@
+* { margin:0; padding: 0; }
+html, html body {
+    display: block;
+    background-color: #262626;
+    font-family: Sans, Verdana, Arial, sans-serif;
+    color: #292929;
+}
+#wrap {
+    display: block;
+    width: 960px;
+    margin: 50px auto 0 auto;
+    border-top: solid 10px #0099cc;
+    border-bottom: solid 1px #0099cc;
+    background-color: #fff;
+}
+a, a:visited {
+    color: #0099cc;
+}
+.container {
+    display: block;
+    clear:both;
+    padding: 20px;
+}
+.container#head {
+    border-bottom:none;
+    padding-bottom:40px;
+}
+#head img {
+    float:left;
+    padding: 10px;
+    border:solid 1px #e1e1e1;
+    margin-right: 20px;
+}
+#head h1 {
+    letter-spacing: -1px;
+    font-size: 26px;
+    margin-top: 10px;
+}
+a#zce {
+    display: inline-block;
+    margin-top: 10px;
+    width: 42px;
+    height: 27px;
+    background: transparent url(../images/zce-logo.png) left top no-repeat;
+    text-indent: -5000px;
+    outline:none;
+}
+#head #intro {
+    float:left;
+    display: block;
+    width: 70%;
+}
+#head #contact {
+    display: block;
+    width: 30%;
+    float:right;
+    text-align:right;
+    font-size: 14px;
+}
+#contact ul {
+    list-style:none;
+    list-style-type:none;
+}
+#contact ul li.infos { color: #999; }
+#contact ul li.links {
+    margin-top: 20px;
+}
+a#linkedin, a#linkedin {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: transparent url(../images/net-linkedin.png) left top no-repeat;
+    text-indent: -50000px;
+    float:right;
+    margin: 0 10px;
+    text-align:left;
+    outline:none;
+}
+a#viadeo {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: transparent url(../images/net-viadeo.png) left top no-repeat;
+    text-indent: -50000px;
+    float:right;
+    text-align:left;
+    outline:none;
+}
+h2 {
+    display:block;
+    text-align:left;
+    font-size: 22px;
+    font-weight: normal;
+    width: 200px;
+    float:left;
+}
+div.contents {
+    display: block;
+    margin-left: 200px;
+    font-size: 14px;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+    line-height: 20px;
+}
+ul#work, ul#skills, ul#skills>li>ul, ul#work>li>ul, ul#interests, ul#interests>li>ul {
+    list-style:none;
+    list-style-type: none;
+    list-style-position:inside;
+    margin:0; padding:0;
+}
+ul#work>li {
+    display: block;
+    margin-bottom: 20px;
+}
+ul#work>li:last-child {
+    margin-bottom: 0px;
+}
+ul#work p.date {
+    float:right;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #666;
+}
+ul h3 {
+    display:block;
+    color:#0099cc;
+    font-size: 22px;
+    font-weight:normal;
+}
+ul#work p.employer {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+ul#work>li>ul {
+    list-style-type: circle;
+}
+ul#skills>li, ul#interests>li {
+    display: block;
+    width: 31%;
+    margin-right:2%;
+    float:left;
+    margin-bottom: 20px;
+}
+ul#skills>li:last-child, ul#interests>li:last-child {
+    margin-bottom: 0px;
+}
+ul#skills>li>ul, ul#interests>li>ul {
+     min-height:100px;
+}
+ul#skills>li>ul.short {
+    min-height:40px !important; 
+}
+ul#skills h3,ul#interests h3 { font-size: 20px; margin-bottom: 10px; }
+ul#skills p.level {
+    float:right;
+    width:70px;
+    display:block;
+    height: 16px;
+    line-height: 16px;
+    margin-top: 2px;
+    background: transparent url(../images/skillbar.png) bottom left no-repeat;
+}
+ul#skills p.level span {
+    background-color: green;
+    text-indent: -5000px;
+    display:block;
+    position:relative;
+    background: transparent url(../images/skillbar.png) top left no-repeat;
+}
+blockquote {
+    font-size: 18px;
+    font-family: Georgia, Times, serif;
+    font-style:italic;
+    margin-bottom: 10px;
+}
+ul#skills>li.double {
+    width: 64%;
+}
+ul#skills>li.double>ul>li {
+    display: inline-block;
+}
+a#node {
+    display:inline-block;
+    width:100px;
+    height:60px;
+    text-indent:-5000px;
+    background: transparent url(../images/logo-nodejs.png) left center no-repeat;
+}
+a#mongo {
+    display:inline-block;
+    width:48px;
+    height:60px;
+    text-indent:-5000px;
+    background: transparent url(../images/logo-mongodb.png) left center no-repeat;
+}
+a#moo {
+    display:inline-block;
+    width:180px;
+    height:60px;
+    text-indent:-5000px;
+    background: transparent url(../images/mootools.gif) left center no-repeat;
+}
+a#html5 {
+    display:inline-block;
+    width:64px;
+    height:64px;
+    text-indent:-5000px;
+    background: transparent url(../images/logo-html5.png) left center no-repeat;
+}
+a#css3 {
+    display:inline-block;
+    width:64px;
+    height:64px;
+    text-indent:-5000px;
+    background: transparent url(../images/logo-css3.jpg) left center no-repeat;
+}
+#bottomline {
+    display: block;
+    font-size: 11px;
+    width: 960px;
+    margin: 5px auto 50px auto;
+    text-align:right;
+    line-height: 16px;
+}
+#bottomline a {
+    text-decoration:none;
+    vertical-align:middle;
+}
+#bottomline p, #bottomline img {
+    vertical-align:middle;
+}
+.cut-here {
+    page-break-before: always;
+}
