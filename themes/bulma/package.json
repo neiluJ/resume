@@ -16,8 +16,8 @@
   },
   "scripts": {
     "css-deploy": "npm run css-build && npm run css-postcss",
-    "css-build": "node-sass _sass/main.scss css/main.css",
-    "css-postcss": "postcss --use autoprefixer --output css/main.css css/main.css",
+    "css-build": "node-sass _sass/main.scss assets/css/main.css",
+    "css-postcss": "postcss --use autoprefixer --output assets/css/main.css assets/css/main.css",
     "css-watch": "npm run css-build -- --watch",
     "deploy": "npm run css-deploy"
   }
