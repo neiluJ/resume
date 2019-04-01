@@ -1,0 +1,21 @@
+{
+    "name": "neiluj/resume",
+    "description": "personnal resume site",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Julien",
+            "email": "julien@nitronet.org"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ext-xml": "*",
+        "twig/twig": "2.x-dev",
+        "fwk/xml": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {"Neiluj\\Resume\\": "src/Resume"}
+    }
+}

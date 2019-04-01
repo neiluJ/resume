@@ -1,0 +1,241 @@
+
+body {
+  font-family: $family-monospace;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 1.3rem;
+  letter-spacing: -1px;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+.column {
+  padding: 0;
+}
+
+.columns {
+  margin: 0;
+}
+
+@media screen and (max-width: $tablet) {
+  h1 {
+    font-size: 1rem;
+  }
+  h3 {
+    font-size: 0.8rem;
+  }
+}
+
+section.head-section {
+  background-color: whitesmoke;
+  padding: 2rem 0;
+
+}
+
+section.main {
+  padding-top: 2rem;
+}
+
+section.head-section figure.is-96x96 {
+  float:left;
+  margin: 0 10px 0 20px;
+}
+
+.column.column-links {
+  margin-top:20px;
+  padding-right: 20px;
+}
+
+@media screen and (max-width: $tablet) {
+  section.head-section figure.is-96x96 {
+    float:none;
+    margin: 0 auto 10px auto;
+  }
+
+  .column.column-links {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: $desktop) {
+  section.head-section figure.is-96x96 {
+    margin-left: 0;
+  }
+
+  .column.column-links {
+    padding-right: 0px;
+  }
+}
+
+div.intro {
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: $tablet) {
+  div.intro {
+    margin: 0 0 10px 0;
+  }
+}
+
+p.links {
+  line-height: 32px;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.icon-linkedin {
+  background: transparent url('../images/icon-linkedin.png') left top no-repeat;
+}
+
+.icon-github {
+  background: transparent url('../images/icon-github.png') left top no-repeat;
+}
+
+
+.job {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.job-left {
+  display: block;
+  float:left;
+}
+
+.job-right {
+  display: block;
+  float:right;
+  width: 100px;
+  text-align: right;
+}
+
+.job h4 {
+  display:block;
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+.job h6 {
+  display:inline-block;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.job .content {
+  clear: both;
+  font-size: 0.9rem;
+  padding-top: 0px;
+}
+
+.job .content ul {
+  margin-left: 1rem;
+  display:block;
+}
+
+.job .content ul li {
+  margin-top: 0;
+  vertical-align: middle;
+  line-height: 25px;
+}
+
+.job .content ul li img {
+  vertical-align: top;
+}
+
+ul.old-jobs li * {
+  display: inline;
+  vertical-align: middle;
+}
+ul.old-jobs li h6.dates {
+  color: #aaaaaa;
+}
+
+ul.old-jobs li h4 {
+  font-weight: 700;
+  letter-spacing: -1px;
+  font-size: 1.1rem;
+}
+
+ul.old-jobs li p.corp {
+  color: #666;
+  font-size: 0.8rem;
+}
+
+.footer {
+  padding: 0px 10px 30px 10px;
+  background-color: #fff;
+  font-size: 0.8rem;
+}
+
+.footer p.infos {
+  margin-top: 20px;
+  color: #999;
+}
+
+section.clients {
+  padding: 40px 0 20px 0;
+  background-color: whitesmoke;
+}
+
+section.skills {
+  padding: 40px 0 20px 0;
+}
+
+ul.clients-list, ul.skills {
+  list-style: none;
+}
+
+ul.clients-list li, ul.skills li {
+  display: inline-block;
+}
+
+ul.clients-list li, ul.skills li {
+  padding: 0px 20px;
+  margin-bottom: 20px;
+}
+
+ul.clients-list li {
+  opacity: 0.5;
+}
+
+ul.clients-list li:hover {
+  opacity: 0.8;
+}
+
+ul.skills li p, ul.skills li h5 {
+  display: block;
+  color: #666;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p.skill-level {
+  float:right;
+  width:70px;
+  display:block;
+  height: 16px;
+  line-height: 16px;
+  background: transparent url('../images/skillbar.png') bottom left no-repeat;
+  margin-left: 5px;
+  margin-top: 3px;
+}
+p.skill-level span {
+  text-indent: -5000px;
+  display:block;
+  position:relative;
+  background: transparent url('../images/skillbar.png') top left no-repeat;
+}
+
+@media print {
+  .no-print {
+    display: none;
+  }
+}

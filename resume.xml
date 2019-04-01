@@ -1,250 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-    Document   : resume.xml
-    Created on : 6 décembre 2011, 10:16
-    Author     : neiluj
-    Description:
-        Détails du CV
--->
 <resume>
-    <config>
-        <property name="theme">modern</property>
-        <property name="themesDir">./themes</property>
-    </config>
-    
     <head>
         <name>Julien Ballestracci</name>
         <description>Curriculum Vitae de Julien Ballestracci - Developpeur Web</description>
-        <copyright>Julien Ballestracci (c) 2011-2012</copyright>
+        <copyright>Julien Ballestracci (c) 2011-2019</copyright>
         <keywords>curriculum, vitae, cv, developer, developper, developpeur, developeur, devellopeur, web, web 2.0, innovation, c.v., c.v, neiluj, montpellier, france, hire, job, php, expert, ingénieur, certifié, ugap, webmaster, java, ballestracci, mtp, design patterns, design, ui, interface, oop, object, objects, oriented, programming, stuff</keywords>
-        <localisation>Montpellier, France</localisation>
-        <age>32</age>
-        <url>http://www.neiluj.pro</url>
-        <email>julien@neiluj.pro</email>
-        <position>Lead Developer, Montpellier</position>
-        <headline>Vieux passionné du web et développeur expérimenté à la fois.</headline>
-        <picture>images/v3/tof.jpg</picture>
+        <location>Montpellier</location>
+        <url>https://neiluj.pro</url>
+        <email>hello@neiluj.pro</email>
+        <position>Développeur Web</position>
+        <picture>images/photo-cv-96x96.png</picture>
         <networks>
-            <viadeo>http://www.viadeo.com/profile/julien.ballestracci</viadeo>
-            <linkedin>http://www.linkedin.com/in/neiluj34</linkedin>
+            <network name="github" icon="icon-github" title="Page GitHub">
+                https://github.com/neiluJ
+            </network>
+            <network name="linkedin" icon="icon-linkedin" title="Profil LinkedIn">
+                https://www.linkedin.com/in/neiluj34
+            </network>
         </networks>
-        <intro>
-        </intro>
+        <footer_text>Passionné par le développement web depuis 15 ans, la musique (batterie) et la moto.</footer_text>
     </head>
     
     <experiences>
-        <experience visible="true">
-            <employer>Kaliop</employer>
+        <experience type="big">
+            <employer image="images/logo-kaliop.png" url="https://www.kaliop.fr">Kaliop</employer>
             <from>2015</from>
             <to></to>
             <position>Lead Developer</position>
+            <location>Montpellier</location>
             <details>
-                <info>Développement d'applications et sites Web (PHP, Symfony, eZ Publish/Platform)</info>
-                <info>Intégrations de services tiers (Webservices client, YouSign, Stripe...)</info>
-                <info>Techologies du moment (Docker, Varnish, Solr, ...)</info>
-                <info>Méthode AGILE (Scrum, JIRA)</info>
+                <info text="Conception d'APIs &amp; Microservices">
+                    <techno image="images/tech-logo-apiplatform.png">Api-Platform</techno>
+                </info>
+                <info text="Développement d'applications et sites Web (SPA, VueJS)">
+                    <techno image="images/tech-logo-php.png">PHP</techno>
+                    <techno image="images/tech-logo-symfony.png">Symfony</techno>
+                    <techno image="images/tech-logo-vuejs.png">Symfony</techno>
+                </info>
+                <info text="Intégration de services tiers et SI client" />
+                <info text="Architecture des environnements">
+                    <techno image="images/tech-logo-docker.png">Docker</techno>
+                    <techno image="images/tech-logo-solr.png">Solr</techno>
+                    <techno image="images/tech-logo-sonarqube.png">SonarQube</techno>
+                </info>
+                <info text="Méthode AGILE">
+                    <techno image="images/tech-logo-jira.png">JIRA</techno>
+                </info>
+                <info text="Tierce Maintenance Applicative">
+                    <techno image="images/tech-logo-ez.png">eZ</techno>
+                </info>
+                <info text="Audit d'applications client existantes" />
+                <info text="Accompagnement des équipes de développement et entretiens d'embauche" />
+                <info text="Formation des équipes de développement chez le client" />
             </details>
-            <text />
         </experience>
         
-        <experience visible="true">
-            <employer>UGAP</employer>
+        <experience type="big">
+            <employer image="images/logo-ugap.png" url="https://www.ugap.fr">UGAP</employer>
             <from>2008</from>
             <to>2015</to>
             <position>Développeur Web</position>
             <details>
-                <info>Développement du site eCommerce UGAP.fr (JAVA EE, SAP Netweaver, Struts 2, EJB 3)</info>
-                <info>Intégration continue des développements (Jenkins, TU, Maven)</info>
-                <info>Réfection complète d'un site interne en application Web 2.0 (PHP)</info>
-                <info>Application de design patterns et méthodes agiles (XP, Scrum)</info>
-                <info>Intégration des applications au Système d'Informations (SAP, Office, LDAP...)</info>
-                <info>Utilisation avancée d'InnoDB (MySQL 5)</info>  
-                <info>Interfaces de communications B2B (XML, XCBL)</info>
+                <info text="Développement du site eCommerce UGAP.fr">
+                    <techno image="images/tech-logo-java.png">Java</techno>
+                    <techno image="images/tech-logo-sap.png">SAP</techno>
+                </info>
+                <info text="Tests Unitaires &amp; Intégration Continue des développements">
+                    <techno image="images/tech-logo-jenkins.png">Jenkins</techno>
+                </info>
+                <info text="Réfection complète d'un site interne en application web">
+                    <techno image="images/tech-logo-php.png">PHP</techno>
+                </info>
+                <info text="POO Avancée (Design Patterns, Hybernate, Struts 2)" />
+                <info text="Intégration des applications web au SI">
+                    <techno image="images/tech-logo-microsoft.png">Microsoft</techno>
+                </info>
+                <info text="Utilisation avancée d'InnoDB">
+                    <techno image="images/tech-logo-mysql.png">MySQL</techno>
+                </info>
             </details>
-            <text />
         </experience>
-        
-        <experience visible="true">
-            <employer>Réseau Ecole &amp; Nature</employer>
+
+        <experience type="old">
+            <employer></employer>
+            <from>2009</from>
+            <to>20XX</to>
+            <position>Zend Certified Engineer (PHP 5)</position>
+        </experience>
+        <experience type="old">
+            <employer>Réseau École &amp; Nature</employer>
             <from>2007</from>
             <to>2008</to>
             <position>Développeur Web</position>
-            <details>
-                <info>Développement d'un Framework PHP</info>
-                <info>Administration et support du serveur (environ 100 sites hébergés)</info>  
-                <info>Développement de sites à la demande</info>  
-                <info>Support informatique interne (clients &amp; serveurs)</info>  
-                <text />
-            </details>
         </experience>
-    
-        <experience visible="false">
-            <employer>ECS Group / Groupama S.I.</employer>
+        <experience type="old">
+            <employer>ECS Group / Groupama SI</employer>
             <from>2005</from>
             <to>2007</to>
-            <position>Technicien Informatique</position>
-            <details>
-                <info>Maintenance et Création d'applications PHP 5</info>                
-                <info>Installation de plates-formes web LAMP</info>  
-                <info>Maintenance des machines Clients, Serveurs et Infrastructures Réseau</info>
-                <info>Support applicatif pour divers produits: IBM Lotus Notes, SAP, $U</info>
-                <text />
-            </details>
+            <position>Technicien de maintenance</position>
         </experience>
-
-        <!--
-        <experience visible="false">
-            <employer>Groupama SI</employer>
-            <from>Aout 2004</from>
-            <to>Sept. 2004</to>
-            <position>Stage Equipe Bureautique</position>
-            <details>
-                <info>Développement d'utilitaires sous Borland Delphi 7</info>                
-                <info>Support utilisateurs et résolutions d'incidents</info>  
-                <text />
-            </details>
-        </experience>
-        -->
     </experiences>
 
+    <clients>
+        <client image="images/logo-claas.png">CLAAS France</client>
+        <client image="images/logo-icv.png">Groupe ICV</client>
+        <client image="images/logo-psychologies.png">Psychologies Magasine</client>
+        <client image="images/logo-mutac.png">Mutac</client>
+        <client image="images/logo-ird.png">IRD</client>
+        <client image="images/logo-yelloh.png">Yelloh! Villages</client>
+    </clients>
+
     <skills>
-        <skill category="Programmation">
-            <name>PHP</name>
-            <level>5</level>
-        </skill>
-        <skill category="Programmation">
-            <name>Objet</name>
-            <level>5</level>
-        </skill>
-        <skill category="Programmation">
-            <name>Java</name>
-            <level>3.5</level>
-        </skill>
-        <skill category="Programmation">
-            <name>JavaScript</name>
-            <level>5</level>
-        </skill>
-        <skill category="Programmation">
-            <name>SQL</name>
-            <level>3.5</level>
-        </skill>
-
-        <skill category="Design &amp; UI">
-            <name>Standards</name>
-            <level>4.5</level>
-        </skill>
-        <skill category="Design &amp; UI">
-            <name>CSS</name>
-            <level>4.5</level>
-        </skill>
-        <skill category="Design &amp; UI">
-            <name>CoffeeScript</name>
-            <level>4</level>
-        </skill>
-        <skill category="Design &amp; UI">
-            <name>Conception</name>
-            <level>4</level>
-        </skill>
-        <skill category="Design &amp; UI">
-            <name>HTML5 &amp; Mobilité</name>
-            <level>3</level>
-        </skill>
-        
-        <skill category="Langues">
-            <name>Anglais</name>
-            <level>4.5</level>
-        </skill>
-        <skill category="Langues">
-            <name>Français</name>
-            <level>5</level>
-        </skill>
-        
-        <skill category="Systèmes">
-            <name>Linux</name>
-            <level>5</level>
-        </skill>
-        <skill category="Systèmes">
-            <name>FreeBSD / OSX</name>
-            <level>4</level>
-        </skill>
-        <skill category="Systèmes">
-            <name>Windows</name>
-            <level>3.5</level>
-        </skill>
-        
-        <skill category="Veille">
-            <item id="html5">
-                <name>HTML5</name>
-                <url>http://www.html5rocks.com/en/</url>
-            </item>
-            <item id="css3">
-                <name>CSS3</name>
-                <url>http://www.css3.info/</url>
-            </item>
-            <item id="node">
-                <name>NodeJS</name>
-                <url>http://nodejs.org</url>
-            </item>
-            <item id="moo">
-                <name>MooTools</name>
-                <url>http://mootools.net/</url>
-            </item>
-            <item id="mongo">
-                <name>MongoDB</name>
-                <url>http://www.mongodb.org/</url>
-            </item>
-        </skill>
+        <skill name="PHP">100</skill>
+        <skill name="Symfony">90</skill>
+        <skill name="DevOps">60</skill>
+        <skill name="SQL">80</skill>
+        <skill name="UNIX">70</skill>
+        <skill name="VueJS">80</skill>
     </skills>
-
-    <education>
-           <name>Lycée Champollion</name>
-           <from>2002</from>
-           <to>2004</to>
-           <localisation>Lattes</localisation>
-           <details>Bac Professionnel M.A.E.M.C</details>
-    </education>
-    <education>
-           <name>Lycée Jean-Mermoz</name>
-           <from>2000</from>
-           <to>2002</to>
-           <localisation>Montpellier</localisation>
-           <details>B.E.P. Electronique</details>
-    </education>
-    
-    <interests>
-        <interest category="Musique">
-            <name>Batterie</name>
-            <details />
-        </interest>
-        <interest category="Musique">
-            <name>Basse</name>
-            <details />
-        </interest>
-        <interest category="Musique">
-            <name>Jazz</name>
-            <details />
-        </interest>
-        
-        <interest category="Arts">
-            <name>Photographie</name>
-            <details />
-        </interest>
-        <interest category="Arts">
-            <name>Design</name>
-            <details />
-        </interest>
-        <interest category="Arts">
-            <name>Architecture</name>
-            <details />
-        </interest>
-        
-        <interest category="Sports">
-            <name>Hapkido</name>
-            <details />
-        </interest>
-        <interest category="Sports">
-            <name>Skateboard</name>
-            <details />
-        </interest>
-    </interests>
 </resume>

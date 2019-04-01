@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!--
+         Welcome to my resume :)
+            _ _        _
+ _ __   ___(_) |_   _ (_)  _ __  _ __ ___
+| '_ \ / _ \ | | | | || | | '_ \| '__/ _ \
+| | | |  __/ | | |_| || |_| |_) | | | (_) |
+|_| |_|\___|_|_|\__,_|/ (_) .__/|_|  \___/
+                    |__/  |_|
+    -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ head.name }} / {{ head.position }}, {{ head.location }}</title>
+    <link href="https://fonts.googleapis.com/css?family=Cousine:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="{{ resume_theme_asset('css/main.css') }}">
+</head>
+<body>
+    <section class="section head-section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-offset-1-desktop is-6 has-text-centered-mobile">
+                    <figure class="image is-96x96">
+                        <a href="{{ head.url }}"><img class="is-rounded" src="{{ resume_theme_asset(head.picture) }}" title="{{ head.name }}" alt="photo"></a>
+                    </figure>
+                    <div class="intro">
+                        <h1><a href="{{ head.url }}">{{ head.name }}</a></h1>
+                        <h3>{{ head.position }}, {{ head.location }}</h3>
+                    </div>
+                </div>
+                <div class="column is-3-desktop is-6-tablet has-text-centered has-text-right-tablet column-links">
+                    <p class="links">
+                        {% for network,infos in head.networks %}
+                        <a href="{{ infos.value }}" title="{{ infos.title }}">
+                            <span class="icon {{ infos.icon }}"></span>
+                        </a>
+                        {% endfor %}
+                        <a href="mailto:{{ head.email }}">{{ head.email }}</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section main">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-9-desktop is-offset-1-desktop">
+
+                    {% for exp in experiences if exp.type == "big" %}
+                    <div class="job">
+                        <div class="job-left">
+                            <h4>/ {{ exp.position }}</h4>
+                            {% if exp.to is empty %}
+                                <h6 class="dates">Depuis {{ exp.from }}</h6>
+                            {% else %}
+                                <h6 class="dates">{{ exp.from }} à {{ exp.to }}</h6>
+                            {% endif %}
+                            <h6 class="corp">/ <strong>{{ exp.employer.name }}</strong></h6>
+                        </div>
+                        <div class="job-right corp">
+                            <a href="{{ exp.employer.url }}">
+                                <img src="{{ resume_theme_asset(exp.employer.image) }}" alt="{{ resume_theme_asset(exp.employer.name)|lower }}" title="{{ resume_theme_asset(exp.employer.name) }}" width="50" height="50" />
+                            </a>
+                        </div>
+                        <div class="content">
+                            <ul class="job-list">
+                                {% for info in exp.infos %}
+                                <li>
+                                    {{ info.text }}
+                                    {% for techno in info.technos %}
+                                    <img src="{{ resume_theme_asset(techno.image) }}" alt="{{ techno.title|lower }}" title="{{ techno.title }}" />
+                                    {% endfor %}
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                    {% endfor %}
+
+                    <ul class="old-jobs">
+                        {% for exp in experiences if exp.type != "big" %}
+                        <li>
+                            <h6 class="dates">{{ exp.from }}.{{ exp.to }}</h6>
+                            <h4>/ {{ exp.position }}</h4>
+                            {% if exp.employer.name is not empty %}
+                                <p class="corp">{{ exp.employer.name }}</p>
+                            {% endif %}
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {% if clients is defined and clients|length %}
+    <section class="clients">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-9-desktop is-offset-1-desktop has-text-centered">
+                    <ul class="clients-list">
+                        {% for client in clients %}
+                        <li><img src="{{ resume_theme_asset(client.image) }}" alt="{{ client.name|lower }}" title="{{ client.name }}" /></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    {% endif %}
+
+    {% if skills is defined and skills|length %}
+    <section class="skills">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-9-desktop is-offset-1-desktop has-text-centered">
+                    <ul class="skills">
+                        {% for skill,level in skills %}
+                        <li>
+                            <h5>{{ skill }}</h5>
+                            <p class="skill-level">
+                                <span style="width: {{ level }}%">{{ skill }}</span>
+                            </p>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    {% endif %}
+
+    <footer class="footer has-text-centered">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-9-desktop is-offset-1-desktop">
+                    <p>{{ head.footer_text }}</p>
+                    <p class="no-print infos">Vous pouvez <a href="#" onclick="window.print()">imprimer</a> cette page, <a href="{{ resume_theme_asset('cv-jballestracci.pdf') }}">télécharger le CV</a> (PDF) ou consulter les <a href="https://github.com/neiluJ/resume">sources</a> (GPLv3).</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

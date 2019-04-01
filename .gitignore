@@ -1,1 +1,5 @@
 /.idea/
+/themes/*/node_modules/
+composer.phar
+/index.html
+/vendor/
