@@ -1,14 +1,26 @@
 <?php
 
+/**
+ * This file is part of neiluJ's Resume Site
+ *
+ * @author Julien Ballestracci
+ * @copyright Julien Ballestracci <julien@nitronet.org> (c) 2011-2019
+ * @license GPL v3
+ */
 namespace Neiluj\Resume;
 
 
 use Fwk\Xml\Map;
 use Fwk\Xml\XmlFile;
 
+/**
+ * Class XmlResume
+ *
+ * @package Neiluj\Resume
+ */
 class XmlResume
 {
-    // a theme comes with its own Xml MAP
+    // a theme always comes with its own 'Xml Map'
     const RESUME_MAP_FILENAME = 'XmlResumeMap.php';
 
     /**
@@ -36,6 +48,8 @@ class XmlResume
     }
 
     /**
+     * Extracts and returns data from XML file according to the theme's XmlResumeMap
+     *
      * @return array
      * @throws ResumeException
      */
@@ -51,6 +65,8 @@ class XmlResume
     }
 
     /**
+     * Instantiates the XmlResumeMap of the theme
+     *
      * @throws ResumeException
      */
     protected function xmlMapFactory(): Map
