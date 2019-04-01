@@ -35,6 +35,7 @@ $GIT_BIN commit -m "deploy"
 $GIT_BIN push origin $GIT_BRANCH
 
 echo "Cleaning up"
+cd "$INIT_PWD"
 rm ./index.html
 
 echo "DEPLOY OK!"
