@@ -24,6 +24,13 @@
     <meta property="og:image" content="{{ resume_theme_asset('images/neiluj-og.png') }}" />
     <meta property="twitter:site" content="https://twitter.com/neiluJ34">
     <link rel="canonical" href="https://neiluj.pro/">
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ head.ga_tracking_id }}"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '{{ head.ga_tracking_id }}');
+    </script>
 </head>
 <body>
     <section class="section head-section">
