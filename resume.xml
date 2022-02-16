@@ -3,7 +3,7 @@
     <head>
         <name>Julien Ballestracci</name>
         <description>Curriculum Vitae de Julien Ballestracci - Developpeur Web</description>
-        <copyright>Julien Ballestracci (c) 2011-2019</copyright>
+        <copyright>Julien Ballestracci (c) 2011-2022</copyright>
         <keywords>curriculum, vitae, cv, developer, developper, developpeur, developeur, devellopeur, web, web 2.0, innovation, c.v., c.v, neiluj, montpellier, france, hire, job, php, expert, ingénieur, certifié, ugap, webmaster, java, ballestracci, mtp, design patterns, design, ui, interface, oop, object, objects, oriented, programming, stuff</keywords>
         <location>Montpellier</location>
         <url>https://neiluj.pro</url>
@@ -19,14 +19,31 @@
             </network>
         </networks>
         <ga_tracking_id>UA-10798483-1</ga_tracking_id>
-        <footer_text>Passionné par le développement web depuis 15 ans, la musique (batterie) et la moto.</footer_text>
+        <footer_text>Passionné par le développement web depuis 20 ans, la musique (batterie) et la moto.</footer_text>
     </head>
     
     <experiences>
         <experience type="big">
+            <employer image="images/logo-talkspirit.png" url="https://www.talkspirit.com">Talkspirit</employer>
+            <from>2021</from>
+            <to></to>
+            <position>Senior Backend Developer</position>
+            <location>Montpellier</location>
+            <details>
+                <info text="Développement et Maintenance du Backend">
+                    <techno image="images/tech-logo-php.png">PHP</techno>
+                    <techno image="images/tech-logo-symfony.png">Symfony</techno>
+                </info>
+                <info text="Domain-Driven Development, TDD &amp; CQRS" />
+                <!-- <info text="Méthode AGILE Scrum/Kanban" /> -->
+                <info text="CI/CD via Github et CircleCI" />
+            </details>
+        </experience>
+
+        <experience type="big">
             <employer image="images/logo-kaliop.png" url="https://www.kaliop.fr">Kaliop</employer>
             <from>2015</from>
-            <to></to>
+            <to>2021</to>
             <position>Lead Developer</position>
             <location>Montpellier</location>
             <details>
@@ -50,8 +67,8 @@
                 <info text="Tierce Maintenance Applicative">
                     <techno image="images/tech-logo-ez.png">eZ</techno>
                 </info>
-                <info text="Audit d'applications client existantes" />
-                <info text="Accompagnement des équipes de développement et entretiens d'embauche" />
+                <!-- <info text="Audit d'applications client existantes" /> -->
+                <!-- <info text="Accompagnement des équipes de développement et entretiens d'embauche" /> -->
                 <info text="Formation des équipes de développement chez le client" />
             </details>
         </experience>
@@ -66,19 +83,19 @@
                     <techno image="images/tech-logo-java.png">Java</techno>
                     <techno image="images/tech-logo-sap.png">SAP</techno>
                 </info>
-                <info text="Tests Unitaires &amp; Intégration Continue des développements">
+                <!-- <info text="Tests Unitaires &amp; Intégration Continue des développements">
                     <techno image="images/tech-logo-jenkins.png">Jenkins</techno>
-                </info>
+                </info> -->
                 <info text="Réfection complète d'un site interne en application web">
                     <techno image="images/tech-logo-php.png">PHP</techno>
                 </info>
-                <info text="POO Avancée (Design Patterns, Hybernate, Struts 2)" />
+                <!-- <info text="POO Avancée (Design Patterns, Hybernate, Struts 2)" /> -->
                 <info text="Intégration des applications web au SI">
                     <techno image="images/tech-logo-microsoft.png">Microsoft</techno>
                 </info>
-                <info text="Utilisation avancée d'InnoDB">
+                <!-- <info text="Utilisation avancée d'InnoDB">
                     <techno image="images/tech-logo-mysql.png">MySQL</techno>
-                </info>
+                </info> -->
             </details>
         </experience>
 
