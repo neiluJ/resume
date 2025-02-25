@@ -2,14 +2,14 @@
 <resume>
     <head>
         <name>Julien Ballestracci</name>
-        <description>Curriculum Vitae de Julien Ballestracci - Developpeur Web</description>
-        <copyright>Julien Ballestracci (c) 2011-2022</copyright>
-        <keywords>curriculum, vitae, cv, developer, developper, developpeur, developeur, devellopeur, web, web 2.0, innovation, c.v., c.v, neiluj, montpellier, france, hire, job, php, expert, ingénieur, certifié, ugap, webmaster, java, ballestracci, mtp, design patterns, design, ui, interface, oop, object, objects, oriented, programming, stuff</keywords>
+        <description>Curriculum Vitae de Julien Ballestracci - Web Developer</description>
+        <copyright>Julien Ballestracci (c) 2011-2025</copyright>
+        <keywords>curriculum, vitae, cv, developer, developper, developpeur, developeur, devellopeur, web, web 2.0, innovation, c.v., c.v, neiluj, montpellier, france, hire, job, php, expert, ingénieur, certifié, ugap, webmaster, java, ballestracci, mtp, design patterns, design, ui, interface, oop, object, objects, oriented, programming, stuff, tech, tech lead, team lead</keywords>
         <location>Montpellier</location>
         <url>https://neiluj.pro</url>
         <email>hello@neiluj.pro</email>
         <position>Développeur Web</position>
-        <picture>images/photo-cv-96x96.png</picture>
+        <picture>images/photo-julien-ballestracci-96x96.jpg</picture>
         <networks>
             <network name="github" icon="icon-github" title="Page GitHub">
                 https://github.com/neiluJ
@@ -19,14 +19,36 @@
             </network>
         </networks>
         <ga_tracking_id>UA-10798483-1</ga_tracking_id>
-        <footer_text>Passionné par le développement web depuis 20 ans, la musique (batterie) et la moto.</footer_text>
+        <footer_text>Passionné par le développement web depuis 25 ans, la musique (batterie) et la moto.</footer_text>
     </head>
     
     <experiences>
         <experience type="big">
+            <employer image="images/logo-worldia.jpeg" url="https://corp.worldia.com">Worldia</employer>
+            <from>2023</from>
+            <to></to>
+            <position>Technical Team Lead</position>
+            <location>Remote</location>
+            <details>
+                <info text="Accompagnement technique d'une équipe de 6 développeurs">
+                    <techno image="images/tech-logo-php.png">PHP</techno>
+                    <techno image="images/tech-logo-symfony.png">Symfony</techno>
+                    <techno image="images/tech-google-cloud.png">Google Cloud</techno>
+                </info>
+                <info text="Animation de l'équipe (Tech specs, Pair programming, Reviews, etc.)" />
+                <info text="Design et Architecture des projets à venir, synchronisation avec les autres équipes" />
+                <info text="Gestion du backlog technique (Scrum, Kanban)" />
+                <info text="Aide à la montée en compétence des développeurs et au recrutement" />
+                <info text="Mission bi-lingue (Anglais)">
+                    <techno image="images/english.png">English</techno>
+                </info>
+            </details>
+        </experience>
+
+        <experience type="big">
             <employer image="images/logo-talkspirit.png" url="https://www.talkspirit.com">Talkspirit</employer>
             <from>2021</from>
-            <to></to>
+            <to>2023</to>
             <position>Senior Backend Developer</position>
             <location>Montpellier</location>
             <details>
@@ -35,8 +57,6 @@
                     <techno image="images/tech-logo-symfony.png">Symfony</techno>
                 </info>
                 <info text="Domain-Driven Development, TDD &amp; CQRS" />
-                <!-- <info text="Méthode AGILE Scrum/Kanban" /> -->
-                <info text="CI/CD via Github et CircleCI" />
             </details>
         </experience>
 
@@ -47,25 +67,17 @@
             <position>Lead Developer</position>
             <location>Montpellier</location>
             <details>
-                <info text="Conception d'APIs &amp; Microservices">
-                    <techno image="images/tech-logo-apiplatform.png">Api-Platform</techno>
-                </info>
-                <info text="Développement d'applications et sites Web (SPA, VueJS)">
+                <info text="Développement d'applications, APIs et sites Web et TMA">
                     <techno image="images/tech-logo-php.png">PHP</techno>
                     <techno image="images/tech-logo-symfony.png">Symfony</techno>
-                    <techno image="images/tech-logo-vuejs.png">Symfony</techno>
+                    <techno image="images/tech-logo-apiplatform.png">Api-Platform</techno>
+                    <techno image="images/tech-logo-vuejs.png">VueJS</techno>
                 </info>
-                <info text="Intégration de services tiers et SI client" />
+                <!-- <info text="Intégration de services tiers et SI client" /> -->
                 <info text="Architecture des environnements">
                     <techno image="images/tech-logo-docker.png">Docker</techno>
                     <techno image="images/tech-logo-solr.png">Solr</techno>
                     <techno image="images/tech-logo-sonarqube.png">SonarQube</techno>
-                </info>
-                <info text="Méthode AGILE">
-                    <techno image="images/tech-logo-jira.png">JIRA</techno>
-                </info>
-                <info text="Tierce Maintenance Applicative">
-                    <techno image="images/tech-logo-ez.png">eZ</techno>
                 </info>
                 <!-- <info text="Audit d'applications client existantes" /> -->
                 <!-- <info text="Accompagnement des équipes de développement et entretiens d'embauche" /> -->
@@ -86,9 +98,9 @@
                 <!-- <info text="Tests Unitaires &amp; Intégration Continue des développements">
                     <techno image="images/tech-logo-jenkins.png">Jenkins</techno>
                 </info> -->
-                <info text="Réfection complète d'un site interne en application web">
+                <!--  <info text="Réfection complète d'un site interne en application web">
                     <techno image="images/tech-logo-php.png">PHP</techno>
-                </info>
+                </info> -->
                 <!-- <info text="POO Avancée (Design Patterns, Hybernate, Struts 2)" /> -->
                 <info text="Intégration des applications web au SI">
                     <techno image="images/tech-logo-microsoft.png">Microsoft</techno>
@@ -118,7 +130,7 @@
             <position>Technicien de maintenance</position>
         </experience>
     </experiences>
-
+<!--
     <clients>
         <client image="images/logo-claas.png">CLAAS France</client>
         <client image="images/logo-icv.png">Groupe ICV</client>
@@ -127,7 +139,7 @@
         <client image="images/logo-ird.png">IRD</client>
         <client image="images/logo-yelloh.png">Yelloh! Villages</client>
     </clients>
-
+-->
     <skills>
         <skill name="PHP">100</skill>
         <skill name="Symfony">90</skill>
