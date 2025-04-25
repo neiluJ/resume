@@ -74,9 +74,9 @@
                         <div class="job-left">
                             <h4>/ {{ exp.position }}</h4>
                             {% if exp.to is empty %}
-                                <h6 class="dates">Depuis {{ exp.from }}</h6>
+                                <h6 class="dates">{% if head.lang == "fr" %}Depuis{% else %}Since{% endif %} {{ exp.from }}</h6>
                             {% else %}
-                                <h6 class="dates">{{ exp.from }} à {{ exp.to }}</h6>
+                                <h6 class="dates">{{ exp.from }} {% if head.lang == "fr" %}à{% else %}to{% endif %} {{ exp.to }}</h6>
                             {% endif %}
                             <h6 class="corp">/ <strong>{{ exp.employer.name }}</strong></h6>
                         </div>
