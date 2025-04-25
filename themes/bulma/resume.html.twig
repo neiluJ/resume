@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="{{ head.lang }}">
 <head>
     <!--
          Welcome to my resume :)
@@ -53,6 +53,11 @@
                         </a>
                         {% endfor %}
                         <a href="mailto:{{ head.email }}">{{ head.email }}</a>
+                        {% if head.lang == "fr" %}
+                        <span class="no-print">[<a href="./index-en.html">EN</a>]</span>
+                        {% else %}
+                        <span class="no-print">[<a href="./">FR</a>]</span>
+                        {% endif %}
                     </p>
                 </div>
             </div>
@@ -77,7 +82,7 @@
                         </div>
                         <div class="job-right corp">
                             <a href="{{ exp.employer.url }}">
-                                <img src="{{ resume_theme_asset(exp.employer.image) }}" alt="{{ resume_theme_asset(exp.employer.name)|lower }}" title="{{ resume_theme_asset(exp.employer.name) }}" width="50" height="50" />
+                                <img src="{{ resume_theme_asset(exp.employer.image) }}" alt="{{ resume_theme_asset(exp.employer.name)|lower }}" title="{{ exp.employer.name }}" width="50" height="50" />
                             </a>
                         </div>
                         <div class="content">
@@ -153,7 +158,11 @@
             <div class="columns">
                 <div class="column is-9-desktop is-offset-1-desktop">
                     <p>{{ head.footer_text }}</p>
+                    {% if head.lang == "fr" %}
                     <p class="no-print infos">Vous pouvez <a href="#" onclick="window.print()">imprimer</a> cette page, <a href="{{ resume_theme_asset('cv-jballestracci.pdf') }}">télécharger le CV</a> (PDF) ou consulter les <a href="https://github.com/neiluJ/resume">sources</a> (GPLv3).</p>
+                    {% else %}
+                    <p class="no-print infos">You can <a href="#" onclick="window.print()">print</a> this page, <a href="{{ resume_theme_asset('cv-jballestracci-en.pdf') }}">download this resume</a> (PDF) or browse the <a href="https://github.com/neiluJ/resume">source code</a> (GPLv3).</p>
+                    {% endif %}
                 </div>
             </div>
         </div>

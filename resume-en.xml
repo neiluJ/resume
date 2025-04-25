@@ -2,13 +2,13 @@
 <resume>
     <head>
         <name>Julien Ballestracci</name>
-        <description>Curriculum Vitae de Julien Ballestracci - Web Developer</description>
+        <description>Resume of Julien Ballestracci - Web Developer</description>
         <copyright>Julien Ballestracci (c) 2011-2025</copyright>
         <keywords>curriculum, vitae, cv, developer, developper, developpeur, developeur, devellopeur, web, web 2.0, innovation, c.v., c.v, neiluj, montpellier, france, hire, job, php, expert, ingénieur, certifié, ugap, webmaster, java, ballestracci, mtp, design patterns, design, ui, interface, oop, object, objects, oriented, programming, stuff, tech, tech lead, team lead</keywords>
         <location>Montpellier</location>
         <url>https://neiluj.pro</url>
         <email>hello@neiluj.pro</email>
-        <position>Développeur Web</position>
+        <position>Web Developer</position>
         <picture>images/photo-julien-ballestracci-96x96.jpg</picture>
         <networks>
             <network name="github" icon="icon-github" title="Page GitHub">
@@ -19,8 +19,8 @@
             </network>
         </networks>
         <ga_tracking_id>UA-10798483-1</ga_tracking_id>
-        <footer_text>Passionné par le développement web depuis 25 ans, la musique (batterie) et la moto.</footer_text>
-        <lang>fr</lang>
+        <footer_text>Web development passionnate for about 25 years, music (drums) and motorsports.</footer_text>
+        <lang>en</lang>
     </head>
     
     <experiences>
@@ -31,16 +31,16 @@
             <position>Technical Team Lead</position>
             <location>Remote</location>
             <details>
-                <info text="Accompagnement technique d'une équipe de 6 développeurs">
+                <info text="Technical support for a team of 6 developers">
                     <techno image="images/tech-logo-php.png">PHP</techno>
                     <techno image="images/tech-logo-symfony.png">Symfony</techno>
                     <techno image="images/tech-google-cloud.png">Google Cloud</techno>
                 </info>
-                <info text="Animation de l'équipe (Tech specs, Pair programming, Reviews, etc.)" />
-                <info text="Design et Architecture des projets à venir, synchronisation avec les autres équipes" />
-                <info text="Gestion du backlog technique (Scrum, Kanban)" />
-                <info text="Aide à la montée en compétence des développeurs et au recrutement" />
-                <info text="Mission bi-lingue (Anglais)">
+                <info text="Team management (Agile Methods, Tech Specs, Reviews, Pair programming ...)" />
+                <info text="Architecture and Design of upcoming projects, synchronization with other teams" />
+                <info text="Technical Backlog management (Scrum, Kanban)" />
+                <info text="Help with developer skills development and recruitment" />
+                <info text="Bi-lingual position (French/English)">
                     <techno image="images/english.png">English</techno>
                 </info>
             </details>
@@ -53,7 +53,7 @@
             <position>Senior Backend Developer</position>
             <location>Montpellier</location>
             <details>
-                <info text="Développement et Maintenance du Backend">
+                <info text="Backend Development and Maintenance">
                     <techno image="images/tech-logo-php.png">PHP</techno>
                     <techno image="images/tech-logo-symfony.png">Symfony</techno>
                 </info>
@@ -68,21 +68,21 @@
             <position>Lead Developer</position>
             <location>Montpellier</location>
             <details>
-                <info text="Développement d'applications, APIs et sites Web et TMA">
+                <info text="Development of applications, APIs and websites">
                     <techno image="images/tech-logo-php.png">PHP</techno>
                     <techno image="images/tech-logo-symfony.png">Symfony</techno>
                     <techno image="images/tech-logo-apiplatform.png">Api-Platform</techno>
                     <techno image="images/tech-logo-vuejs.png">VueJS</techno>
                 </info>
                 <!-- <info text="Intégration de services tiers et SI client" /> -->
-                <info text="Architecture des environnements">
+                <info text="Software Architecture">
                     <techno image="images/tech-logo-docker.png">Docker</techno>
                     <techno image="images/tech-logo-solr.png">Solr</techno>
                     <techno image="images/tech-logo-sonarqube.png">SonarQube</techno>
                 </info>
                 <!-- <info text="Audit d'applications client existantes" /> -->
                 <!-- <info text="Accompagnement des équipes de développement et entretiens d'embauche" /> -->
-                <info text="Formation des équipes de développement chez le client" />
+                <info text="In-house training for clients teams" />
             </details>
         </experience>
         
@@ -90,9 +90,9 @@
             <employer image="images/logo-ugap.png" url="https://www.ugap.fr">UGAP</employer>
             <from>2008</from>
             <to>2015</to>
-            <position>Développeur Web</position>
+            <position>Web Developer</position>
             <details>
-                <info text="Développement du site eCommerce UGAP.fr">
+                <info text="Backend Development for UGAP.fr eCommerce website">
                     <techno image="images/tech-logo-java.png">Java</techno>
                     <techno image="images/tech-logo-sap.png">SAP</techno>
                 </info>
@@ -103,7 +103,7 @@
                     <techno image="images/tech-logo-php.png">PHP</techno>
                 </info> -->
                 <!-- <info text="POO Avancée (Design Patterns, Hybernate, Struts 2)" /> -->
-                <info text="Intégration des applications web au SI">
+                <info text="Applications integration in company's IS">
                     <techno image="images/tech-logo-microsoft.png">Microsoft</techno>
                 </info>
                 <!-- <info text="Utilisation avancée d'InnoDB">
@@ -122,13 +122,13 @@
             <employer>Réseau École &amp; Nature</employer>
             <from>2007</from>
             <to>2008</to>
-            <position>Développeur Web</position>
+            <position>Web Developer</position>
         </experience>
         <experience type="old">
             <employer>ECS Group / Groupama SI</employer>
             <from>2005</from>
             <to>2007</to>
-            <position>Technicien de maintenance</position>
+            <position>Tech Support</position>
         </experience>
     </experiences>
 <!--

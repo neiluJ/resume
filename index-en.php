@@ -3,7 +3,7 @@
  * This file is part of neiluJ's Resume Site
  *
  * @author Julien Ballestracci
- * @copyright Julien Ballestracci <julien@nitronet.org> (c) 2011-2019
+ * @copyright Julien Ballestracci <julien@nitronet.org> (c) 2011-2025
  * @license GPL v3
  */
 namespace Resume;
@@ -33,7 +33,7 @@ $twig = new Environment(new FilesystemLoader(
 $twig->addExtension(new TwigResumeExtension());
 
 // load data from resume.xml
-$data = (new XmlResume('resume.xml'))->toArray();
+$data = (new XmlResume('resume-en.xml'))->toArray();
 
 // uncomment this to debug/create XML map
 // var_dump($data);

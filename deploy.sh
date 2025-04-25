@@ -20,11 +20,13 @@ cd "$INIT_PWD"
 mkdir -p "$WORKDIR/$THEME_DIR/assets"
 $RSYNC_BIN -rtvu --delete "$THEME_DIR/assets" "$WORKDIR/$THEME_DIR"
 echo "Generating CV"
-$PHP_BIN $PWD/index.php >> index.html
+$PHP_BIN -derror_reporting=-1 $PWD/index.php >> index.html
+$PHP_BIN -derror_reporting=-1 $PWD/index-en.php >> index-en.html
 
 if [ -f $PWD/index.html ]; then
 	echo "Copying files..."
 	cp ./index.html "$WORKDIR/index.html"
+	cp ./index-en.html "$WORKDIR/index-en.html"
 	cp ./robots.txt "$WORKDIR/robots.txt"
 fi
 
