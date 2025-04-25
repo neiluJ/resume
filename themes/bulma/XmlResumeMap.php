@@ -35,6 +35,7 @@ class XmlResumeMap extends Map
                 )
                 ->addChildren(Path::factory('footer_text', 'footer_text'))
                 ->addChildren(Path::factory('ga_tracking_id', 'ga_tracking_id'))
+                ->addChildren(Path::factory('lang', 'lang'))
         );
 
         $this->add(
