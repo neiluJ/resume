@@ -20,7 +20,6 @@ cd "$INIT_PWD"
 mkdir -p "$WORKDIR/$THEME_DIR/assets"
 $RSYNC_BIN -rtvu --delete "$THEME_DIR/assets" "$WORKDIR/$THEME_DIR"
 echo "Generating CV"
-rm index.html index-en.html
 $PHP_BIN -derror_reporting=-1 $PWD/index.php >> index.html
 $PHP_BIN -derror_reporting=-1 $PWD/index-en.php >> index-en.html
 
@@ -29,6 +28,8 @@ if [ -f $PWD/index.html ]; then
 	cp ./index.html "$WORKDIR/index.html"
 	cp ./index-en.html "$WORKDIR/index-en.html"
 	cp ./robots.txt "$WORKDIR/robots.txt"
+	cp ./themes/bulma/assets/cv-jballestracci.pdf "$WORKDIR/themes/bulma/assets/cv-jballestracci.pdf"
+	cp ./themes/bulma/assets/cv-jballestracci-en.pdf "$WORKDIR/themes/bulma/assets/cv-jballestracci-en.pdf"
 fi
 
 echo "Deploying changes..."
@@ -39,6 +40,6 @@ $GIT_BIN push origin $GIT_BRANCH
 
 echo "Cleaning up"
 cd "$INIT_PWD"
-rm ./index.html
+rm ./index.html ./index-en.html
 
 echo "DEPLOY OK!"
