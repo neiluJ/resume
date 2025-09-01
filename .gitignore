@@ -2,4 +2,5 @@
 /themes/*/node_modules/
 composer.phar
 /index.html
+/index-en.html
 /vendor/
